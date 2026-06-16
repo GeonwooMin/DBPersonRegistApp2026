@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <!--이름-->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#61380B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#663399"/>
+
+</LinearLayout>
+
+    <!--전공-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="전공"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#61380B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/major"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#663399"/>
+
+    </LinearLayout>
+
+    <!--학번-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="학번"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#61380B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stdno"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#663399"/>
+
+    </LinearLayout>
+
+    <!--학년-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="학년"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#61380B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grade"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#663399"/>
+
+    </LinearLayout>
+
+    <!--전화번호-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#61380B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/myPhone"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#663399"/>
+
+    </LinearLayout>
+
+    <!--거주지-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="거주지"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#61380B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/area"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#663399"/>
+
+    </LinearLayout>
+
+    <!--취미-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="취미"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#61380B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hobby"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#663399"/>
+
+    </LinearLayout>
+
+    <!--사진-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="사진"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#61380B"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/viewImage"
+        android:src="@drawable/profile"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+</ScrollView>
