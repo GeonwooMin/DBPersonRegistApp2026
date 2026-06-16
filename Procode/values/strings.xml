@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DB장안연락처앱(박진환)</string>
+    <string name="action_settings1">홈</string>
+    <string name="action_settings2">회원 등록</string>
+    <string name="action_settings3">회원 정보</string>
+    <string name="action_settings4">회원 목록</string>
+    <string name="action_settings5">회원 삭제</string>
+</resources>
